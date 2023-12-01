@@ -1,2 +1,4 @@
+from flask import render_template
+
 def index():
-	return 'Home Controller'
+	return render_template('index.html')

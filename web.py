@@ -3,10 +3,10 @@ from controller import UsersController
 
 def routes(app):
 
-	@app.route('/')
+	@app.route('/', methods=['GET'])
 	def route1():
 		return HomeController.index()
 
-	@app.route('/users')
+	@app.route('/users', methods=['GET'])
 	def route2():
 		return UsersController.index()
