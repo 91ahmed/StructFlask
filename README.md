@@ -1,4 +1,5 @@
-### Simple python flask mvc structure.
+MVC Style Framework for easily creating web applications with __Python__.
+The framework created by __flask__ only provides a workable mvc architecture to facilitate application development.
 
 ```python
 '''

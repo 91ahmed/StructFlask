@@ -4,6 +4,6 @@ class HomeController:
 
 	def index():
 		# some data
-		names = ['ahmed', 'mohamed', 'hossam']
+		names = ['name1', 'name2', 'name3']
 		# render the template and pass the data to the view
 		return render_template('home.html', data=names)
