@@ -1,4 +1,6 @@
 from flask import render_template
 
-def index():
-	return render_template('index.html')
+class HomeController:
+
+	def index():
+		return render_template('home.html')
