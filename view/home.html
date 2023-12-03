@@ -3,8 +3,18 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Home</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="{{ url_for('static', filename='assets/css/custom.css') }}">
 	</head>
 	<body>
 		<h1>Home Page</h1>
+		<ul>
+			{% for name in data %}
+			<li>{{ name }}</li>
+			{% endfor %}
+		</ul>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+		<script src="{{ url_for('static', filename='assets/js/custom.js') }}"></script>
 	</body>
 </html>
