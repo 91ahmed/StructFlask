@@ -1,5 +1,5 @@
 MVC Style Framework for easily creating web applications with __Python__.<br/>
-The framework created by __flask__ only provides a workable mvc architecture to facilitate application development.
+The framework created by __flask__ to provide a workable mvc architecture to facilitate application development.
 
 ```python
 '''
