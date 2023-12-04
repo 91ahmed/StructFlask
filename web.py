@@ -14,6 +14,6 @@ def routes(app):
 	def route1():
 		return HomeController.index()
 
-	@app.route('/admins', methods=['GET'])
+	@app.route('/admins', methods=['GET', 'POST'])
 	def route2():
 		return AdminsController.index()
