@@ -1,8 +1,9 @@
+from controller.BaseController import BaseController
 from flask import render_template
 from sqlalchemy import select
 from model.Admins import Admins
 
-class AdminsController:
+class AdminsController(BaseController):
 
 	def index():
 		# get data from database

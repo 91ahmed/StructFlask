@@ -1,6 +1,7 @@
+from controller.BaseController import BaseController
 from flask import render_template
 
-class HomeController:
+class HomeController(BaseController):
 
 	def index():
 		# some data
