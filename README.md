@@ -1,4 +1,4 @@
-StructFlask is a modular framework built on top of Flask, designed to provide an organized mvc structure and to streamline the development of web applications.
+StructFlask is a modular framework built on top of Flask, designed to provide an organized mvc structure to streamline the development of web applications.
 
 ### Components
 ```python
